@@ -1,8 +1,8 @@
-version: '2'
+version: 3
 services:
  nginx:
-  container_name: nginx
-  image: nginx
+  container_name: nginx_p
+  image: nginx:alpine
   ports:
   - "80:80"
   volumes:
